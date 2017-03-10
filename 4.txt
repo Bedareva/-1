@@ -1,6 +1,6 @@
 #include "Game.h"
 
-
+С„Р«Р’РђРџР•Р РћР“Р›Р”Р›РћР РџРђР’Р«Р¤
 Game::Game(HWND hWnd, int width, int height)
 {
     hwnd = hWnd;
@@ -341,7 +341,7 @@ void Game::GameEnd()
 {
     KillTimer(hwnd,ID_TimerClock);
     Draw();
-    MessageBox(hwnd,L"Поздравляем с победой!",L"Победа",MB_OK);
+    MessageBox(hwnd,L"ГЏГ®Г§Г¤Г°Г ГўГ«ГїГҐГ¬ Г± ГЇГ®ГЎГҐГ¤Г®Г©!",L"ГЏГ®ГЎГҐГ¤Г ",MB_OK);
 }
 
 bool Game::IsInRegion(int regionX, int regionY, int pointX, int pointY)
