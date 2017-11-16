@@ -3,8 +3,8 @@
 using namespace std;
 int main()
 {
-    int i; // счетчик цикла
-    int pow = 0; // сумма чисел от 1 до 1000.
+    int i; 
+    int pow = 0; 
     setlocale(0, "");
     for (i = 0; i < 10; i++)
 	{{
